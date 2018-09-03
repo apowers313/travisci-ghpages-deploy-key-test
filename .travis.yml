@@ -7,12 +7,7 @@ notifications:
 language: node_js
 node_js:
   - '10'
-before_install:
-  - openssl aes-256-cbc -K $encrypted_fec6a5fe30ed_key -iv $encrypted_fec6a5fe30ed_iv -in travis_key.enc -out travis_key -d
-  - chmod 600 travis_key
-  - eval `ssh-agent -s`
-  - ssh-add travis_key
 after_success:
   - git config --global user.name "TravisCI"
-  - git config --global user.email "travisci@digitalbazaar.com"
-  - node_modules/.bin/gh-pages --dist docs -r git@github.com:travisci-ghpages-deploy-key-test.git
+  - git config --global user.email "travisci@ato.ms"
+  - ./.travis-deploy.sh
