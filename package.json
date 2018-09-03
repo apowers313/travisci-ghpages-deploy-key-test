@@ -1,0 +1,22 @@
+{
+  "name": "travisci-ghpages-deploy-key-test",
+  "version": "1.0.0",
+  "description": "This repo is an example of how to deploy to [GitHub pages](https://pages.github.com/) using a [GitHub Deploy Key](https://developer.github.com/v3/guides/managing-deploy-keys/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apowers313/travisci-ghpages-deploy-key-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apowers313/travisci-ghpages-deploy-key-test/issues"
+  },
+  "homepage": "https://github.com/apowers313/travisci-ghpages-deploy-key-test#readme",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
