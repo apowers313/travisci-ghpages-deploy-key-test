@@ -4,7 +4,7 @@
   "description": "This repo is an example of how to deploy to [GitHub pages](https://pages.github.com/) using a [GitHub Deploy Key](https://developer.github.com/v3/guides/managing-deploy-keys/).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "true"
   },
   "repository": {
     "type": "git",
